@@ -1,0 +1,85 @@
+body{
+ background-image: url(1632784827_screenshot-from-2021-09-28-02-19-29.png);
+ background-size: 1950px;
+ background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+   color: red;
+   font-family: cursive, Lucida Handwriting, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 50;
+}
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-size-adjust: 500px;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gallery {
+  display: inline;
+  margin: 50px;
+  border: 1px solid #ccc;
+  width: 100%
+}
+
+#gallery img {
+  width: 17%;
+}
+
+#gallery:hover {
+  border: 5px solid #777;
+}
+
+
+section{
+  padding: 15px;
+  width: 100%;
+}
+
+.bg-op{
+  background-color: #111;
+  opacity: 80%;
+}
+
+p{
+  margin: 0;
+  font-size: X-large;
+  color: rgb(255, 8, 8);
+  font-family: cursive, Lucida Handwriting, sans-serif;
+
+}
+a{
+  font-size: xx-large;
+  color: red;
+}

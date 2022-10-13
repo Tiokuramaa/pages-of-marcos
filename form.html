@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>formulario de conhecimento</title>
+            <style>
+        body
+        {
+            font-family: Arial;
+        }
+        #area
+        {
+            position:relative;
+            left:37%;
+            top: 29%;
+            width:320px;
+            height:270px;
+        }
+        #area #formulario
+        {
+            position:absolute;
+            display:block;
+        }
+        fieldset
+        {
+            width:300px;
+            height:280px;
+        }
+        /* definindo o tamanho dos inputs*/
+        #formulario input.campo_nome
+        {
+            position:absolute;
+            left:95px;
+            top:23px;
+            width:225px;
+            background-color:#f1ff00;
+        }
+        #formulario input.campo_email
+        {
+            position:absolute;
+            left:95px;
+            margin-top:2px;
+            width:225px;
+            background-color: #f1ff00;
+        }
+        /* colocando o botão na direita  */
+        input.btn_submit
+        {
+            position: absolute;
+            bottom: 0.5 em;
+            right:10px;
+        }
+        /* colocando a cor de fundo no textarea */
+        .msg
+        {
+            background-color: #f1ff00;
+        }
+        </style>
+        </head>
+    <body>
+        <div id="area">
+            <form id="formulario" autocomplete="off" action="index.html">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    Nome: <input class="campo_nome" type="text" required><br><br>
+                    Email: <input class="campo_email" required><br><br>
+                    <p>Diga oq quer q apareça no nosso site</p>
+                    Mensagem:<br><textarea class="msg" cols="39" rows="8" required></textarea><br><br>
+                    <input class="btn_submit" type="Submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>
